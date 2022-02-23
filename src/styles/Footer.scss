@@ -1,0 +1,45 @@
+@import "../styles/variables.scss";
+
+footer {
+  margin-top: 150px;
+
+  .footer-section {
+    .footer-img {
+      position: absolute;
+      bottom: -15%;
+      right: 0;
+      z-index: 2;
+      width: 50%;
+    }
+
+    .footer-sm {
+      color: $thm-pri-color;
+      margin-right: 10px;
+    }
+
+    hr {
+      width: 65%;
+    }
+
+    .fcp-brand {
+      color: $thm-pri-color;
+    }
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 786px) {
+  footer {
+    .footer-section {
+      .footer-img {
+        position: static;
+        width: 80%;
+        margin: 0 auto 20px;
+        display: block;
+      }
+
+      hr {
+        width: 100%;
+      }
+    }
+  }
+}

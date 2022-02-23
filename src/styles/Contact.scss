@@ -1,0 +1,48 @@
+@import "./variables.scss";
+
+.cf-section {
+  background-image: url("../Images/bannerbg1.png");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 200px 0 100px;
+  position: relative;
+
+  .form-bg {
+    background-color: #ffffff10;
+    box-shadow: 0 25px 45px rgb(0 0 0 / 20%);
+  }
+}
+
+.form-bg {
+  // background-color: #1d627280;
+  background-color: #66929ce0;
+  padding: 30px;
+  backdrop-filter: blur(8px);
+  // box-shadow: 0 25px 45px rgb(0 0 0 / 20%);
+  color: $white;
+  border-radius: 30px;
+
+  .contact-form {
+    .form-control {
+      background-color: transparent;
+      border: 1px solid #ffffff50;
+      color: $white;
+    }
+    .req-field::after {
+      content: "*";
+      color: $white;
+      margin: 0 6px;
+    }
+
+    input[type=number] {
+      appearance: none;
+    }
+  }
+}
+
+.ourlocation-section {
+  iframe {
+    width: 100%;
+    border: 0;
+  }
+}

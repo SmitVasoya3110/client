@@ -1,0 +1,101 @@
+@import "./variables.scss";
+
+.ourservices-section {
+  .sc-container {
+    display: flex;
+    justify-content: center;
+
+    .service-card {
+      width: 320px;
+      margin: 0 10px 20px;
+      padding: 50px 20px;
+      background-color: $thm-pri-color-light;
+      border-radius: 16px;
+
+      .sc-icon {
+        color: $thm-pri-color;
+        font-size: 32px;
+        margin-bottom: 10px;
+        position: relative;
+        transition: all 0.4s ease-in-out;
+      }
+
+      h4 {
+        color: $thm-tri-color;
+        font-weight: bold;
+        position: relative;
+        transition: all 0.4s ease-in-out;
+      }
+
+      p {
+        position: relative;
+      }
+
+      button {
+        border-radius: 50%;
+        padding: 10px 14px;
+        border: none;
+        background-color: #1D627270;
+        color: $white;
+        position: relative;
+        transition: all 0.4s ease-in-out;
+      }
+    }
+
+    .service-card:hover {
+      background-image: url("../Images/scbg.jpeg");
+
+      .sc-icon,
+      h4,
+      p {
+        color: $white;
+      }
+
+      button {
+        background-color: $white;
+        color: $thm-sec-color;
+      }
+    }
+    .service-card:hover::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 16px;
+      transition: background-image 0.4s ease-in-out;
+    //   background-image: linear-gradient(
+    //     90deg,
+    //     rgba(75, 40, 196, 0.9) 0%,
+    //     rgba(139, 63, 174, 0.9) 100%
+    //   );
+      background-image: linear-gradient(
+        45deg,
+        rgb(29, 98, 114, 0.9) 0%,
+        rgb(134, 191, 208, 0.9) 100%);
+    }
+  }
+}
+
+.whychooseus-section {
+    .wcu-img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .ourservices-section {
+        .sc-container {
+          flex-wrap: wrap;
+        }
+    }      
+}
+
+@media screen and (min-width: 0) and (max-width: 480px) {
+    .ourservices-section {
+        .sc-container {
+          flex-wrap: wrap;
+        }
+    }
+}
