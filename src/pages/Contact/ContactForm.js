@@ -39,7 +39,7 @@ const ContactForm = ({ setMsg }) => {
       };
 
       await axios
-        .post("https://backend/mail", body, {
+        .post("https://digisurfaustralia.com.au/mail", body, {
           headers: {
             "Content-type": "application/json",
           },
