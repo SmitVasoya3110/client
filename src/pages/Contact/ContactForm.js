@@ -39,7 +39,7 @@ const ContactForm = ({ setMsg }) => {
       };
 
       await axios
-        .post("http://backend:8001/mail", body, {
+        .post("https://backend:8001/mail", body, {
           headers: {
             "Content-type": "application/json",
           },
