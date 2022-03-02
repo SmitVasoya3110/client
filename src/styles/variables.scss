@@ -120,10 +120,10 @@ $big-heading-font: 60px;
   display: none;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
   .pure-modal-backdrop .pure-modal {
     .close {
-      right: 7%;
+      right: 10%;
     }
   }
 }
@@ -134,14 +134,20 @@ $big-heading-font: 60px;
 
     .close {
       right: 7%;
+      top: 7%;
     }
   }
 
   .form-bg {
     padding: 8px;
+    margin: 30px 0;
 
     form {
       width: 90% !important;
+    }
+
+    .col-12 {
+      padding: 30px !important;
     }
   }
 }

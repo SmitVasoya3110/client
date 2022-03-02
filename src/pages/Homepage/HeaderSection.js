@@ -13,21 +13,21 @@ const HeaderSection = () => {
             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
               <div className="header-text">
                 {/* <h1 className="text-light">Integrating technology with strategies</h1> */}
-                <h1 className="text-light text-uppercase">
+                <h1 className="text-uppercase">
                   <strong>
                     Integrating technology
                     <br />
                     with strategies
                   </strong>
                 </h1>
-                <p className="text-light">We design a unique brand identity!</p>
+                <p className="">We design a unique brand identity!</p>
                 <a href="#our-services">
-                  <button className="btn-white-border me-3 head-btn">
+                  <button className="btn-pri me-3 head-btn">
                     Our Services <BsChevronDoubleRight />
                   </button>
                 </a>
                 <Link to="/contact">
-                  <button className="btn-white-border head-btn">
+                  <button className="btn-pri head-btn">
                     Contact Us <BsChevronDoubleRight />
                   </button>
                 </Link>

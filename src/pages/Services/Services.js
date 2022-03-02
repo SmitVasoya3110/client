@@ -11,6 +11,7 @@ const Services = () => {
       <Helmet>
         <title>Our Services</title>
         <meta name="description" content="Expolre Our Services" />
+        <link rel="canonical" href="https://digisurfaustralia.com.au/services" />
       </Helmet>
       <HeaderSection title="Our Services" />
       <OurServices />

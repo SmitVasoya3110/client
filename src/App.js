@@ -14,15 +14,27 @@ import Home from "./pages/Homepage/Home";
 import Services from "./pages/Services/Services";
 import Contact from "./pages/Contact/Contact";
 import ServiceDetails from "./pages/Services/ServiceDetailsPage/ServiceDetails";
+import { useLocation } from "react-router-dom";
 
 function App() {
+
+  const [navColor, setNavColor] = useState(false);
+  // const location = useLocation();
+
   useEffect(() => {
     return () => {
       window.removeEventListener("scroll", () => handleScroll);
+      // if(window.location.pathname === "/web-development") {
+      //   setNavColor(true);
+      // }
+      // else {
+      //   setNavColor(false);
+      // }
     };
   }, []);
 
   const [isSticky, setSticky] = useState(false);
+  
 
   const handleScroll = () => {
     window.pageYOffset > 70 ? setSticky(true) : setSticky(false);
@@ -34,7 +46,7 @@ function App() {
     <div>
       {/* <React.Suspense fallback={<AppLoader />}> */}
       <ScrollToTop />
-      <Header sticky={isSticky} />
+      <Header sticky={isSticky} navColor={navColor}/>
       <Helmet>
         <title>DigiSurf | Australia</title>
         <meta name="description" content="Get all your IT related work done" />

@@ -39,7 +39,7 @@ const ContactForm = ({ setMsg }) => {
       };
 
       await axios
-        .post("http://localhost:8001/mail", body, {
+        .post("http://backend:8001/mail", body, {
           headers: {
             "Content-type": "application/json",
           },
@@ -72,7 +72,7 @@ const ContactForm = ({ setMsg }) => {
       {loading ? <MailLoader /> : 
         <div className="form-bg">
           <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-5">
+            <div className="col-lg-4 col-md-6 col-12 p-5">
               <h1>Get in Touch</h1>
               <p>We love to hear from you. Our team is always here to chat.</p>
               <div className="d-flex mb-5">

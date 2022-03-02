@@ -31,6 +31,7 @@ const ServiceDetails = () => {
       <Helmet>
         <title>{data.heading}</title>
         <meta name="description" content={data.headerContent} />
+        <link rel="canonical" href="https://digisurfaustralia.com.au/" />
       </Helmet>
       {/* <HeaderSection title={data.heading} /> */}
       <ServiceHeader

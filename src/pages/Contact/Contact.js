@@ -10,6 +10,7 @@ const Contact = () => {
       <Helmet>
         <title>Contact Us</title>
         <meta name="description" content="Get in touch with Digisurf Australia" />
+        <link rel="canonical" href="https://digisurfaustralia.com.au/contact" />
       </Helmet>
       {/* <HeaderSection title="Contact" /> */}
       <ContactFormSection />

@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e393bc69.css",
+    "main.js": "/static/js/main.84a04bcc.js",
+    "static/js/787.070db070.chunk.js": "/static/js/787.070db070.chunk.js",
+    "static/media/mailloader.gif": "/static/media/mailloader.f1dd5ada0a71e2a882f8.gif",
+    "static/media/banner-illustration-1.png": "/static/media/banner-illustration-1.f05aaac0466b3c55747c.png",
+    "static/media/transaprent-logo-1.png": "/static/media/transaprent-logo-1.571c822b4b3989489b45.png",
+    "static/media/transparent-logo.png": "/static/media/transparent-logo.136168965d54e9665d7f.png",
+    "static/media/pageheaderbg.jpeg": "/static/media/pageheaderbg.34557d5bf235e67f75ee.jpeg",
+    "static/media/bottom-section-1.png": "/static/media/bottom-section-1.0418d37532d73dc3adac.png",
+    "static/media/wcuimage.png": "/static/media/wcuimage.e705f39758e04cc3af1f.png",
+    "static/media/mid-section-1.png": "/static/media/mid-section-1.36908454fef1fb71311c.png",
+    "static/media/portfolio3.jpeg": "/static/media/portfolio3.8e7a06db2674ea787ac4.jpeg",
+    "static/media/research-and-development (1).png": "/static/media/research-and-development (1).a2ad20edce7cbfe75e49.png",
+    "static/media/portfolio1.jpeg": "/static/media/portfolio1.b7d430227192461f34d6.jpeg",
+    "static/media/web-coding.png": "/static/media/web-coding.13217d4d04e3dca46621.png",
+    "static/media/portfolio2.jpeg": "/static/media/portfolio2.0e83a4c8d988c1771a8e.jpeg",
+    "static/media/bannerbg1.png": "/static/media/bannerbg1.0d7cf4374b79bca4869e.png",
+    "static/media/evaluation.png": "/static/media/evaluation.bb390bc128321346055c.png",
+    "static/media/curve.png": "/static/media/curve.f0df7ea3e8b7377abe54.png",
+    "static/media/research-and-development (2).png": "/static/media/research-and-development (2).06db334a8aefd075faee.png",
+    "static/media/cta2.png": "/static/media/cta2.897e9e3e27de4b68fc23.png",
+    "static/media/scbg.jpeg": "/static/media/scbg.987ec52e5ad8b964520d.jpeg",
+    "static/media/maintenance.png": "/static/media/maintenance.570d5a28a319fe7ef77a.png",
+    "static/media/deployment.png": "/static/media/deployment.a16c22480acc8f59c7a5.png",
+    "static/media/progressimg.png": "/static/media/progressimg.f7340685e18b2675dd93.png",
+    "static/media/team3.jpeg": "/static/media/team3.dad4ca02bac0d38f2a02.jpeg",
+    "static/media/team4.jpeg": "/static/media/team4.5c84322f4cdae5e000c7.jpeg",
+    "static/media/team1.jpeg": "/static/media/team1.b2e9e5370dc257aad27b.jpeg",
+    "index.html": "/index.html",
+    "main.e393bc69.css.map": "/static/css/main.e393bc69.css.map",
+    "main.84a04bcc.js.map": "/static/js/main.84a04bcc.js.map",
+    "787.070db070.chunk.js.map": "/static/js/787.070db070.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e393bc69.css",
+    "static/js/main.84a04bcc.js"
+  ]
+}

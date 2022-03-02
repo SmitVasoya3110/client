@@ -1,6 +1,7 @@
 // import logolight from "../Images/logolight.png";
 import { useEffect } from "react";
-import logolight from "../Images/transaprent-logo-1.png";
+// import logolight from "../Images/transaprent-logo-1.png";
+import logolight from "../Images/transparent-logo.png";
 import { Link } from "react-router-dom";
 import "../styles/Button.scss";
 import "../styles/Navbar.scss";
@@ -15,14 +16,8 @@ const Header = ({ sticky }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [modal, setModal] = useState(false);
 
-  useEffect(() => (
-    document.addEventListener("mousedown", () => {
-      setIsOpen(false);
-    })
-  ),[]);
-
-  const handleClickAway = () => {
-    setIsOpen(!isOpen);
+  const ToggleSidebar = () => {
+    isOpen === true ? setIsOpen(false) : setIsOpen(true);
   };
 
   return (
@@ -48,107 +43,106 @@ const Header = ({ sticky }) => {
             width="200"
           />
         </Link>
-          <ul className={`navbar-nav ${isOpen ? "mopen" : "close"}`}>
-            <li className="nav-item">
-              <Link
-                to="/"
-                className="nav-link"
-                onClick={() => setIsOpen(!isOpen)}
-              >
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <a
-                href="#about-us"
-                className="nav-link"
-                onClick={() => setIsOpen(!isOpen)}
-              >
-                About
-              </a>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="/services"
-                id="servicesMenu"
-                onClick={() => setIsOpen(!isOpen)}
-              >
-                Services <FaAngleDown />
-              </Link>
-              <ul className="dropdown-menu" aria-labelledby="servicesMenu">
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/web-development"
-                    onClick={() => setIsOpen(!isOpen)}
-                  >
-                    Web Development
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/erp-development"
-                    onClick={() => setIsOpen(!isOpen)}
-                  >
-                    ERP/CRM Development
-                  </Link>
-                </li>
-                <li></li>
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/graphic-designing"
-                    onClick={() => setIsOpen(!isOpen)}
-                  >
-                    Graphic Designing
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/digital-marketing"
-                    onClick={() => setIsOpen(!isOpen)}
-                  >
-                    Digital Marketing
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/devops"
-                    onClick={() => setIsOpen(!isOpen)}
-                  >
-                    DevOps
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/mobile-app-development"
-                    onClick={() => setIsOpen(!isOpen)}
-                  >
-                    Mobile App Development
-                  </Link>
-                </li>
-              </ul>
-            </li>
-            {/* <li className="nav-item">
+        <ul className={`navbar-nav ${isOpen ? "mopen" : "close"}`}>
+          <li className="nav-item">
+            <Link
+              to="/"
+              className="nav-link"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              Home
+            </Link>
+          </li>
+          <li className="nav-item">
+            <a
+              href="#about-us"
+              className="nav-link"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              About
+            </a>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/services" id="servicesMenu">
+              Services <FaAngleDown />
+            </Link>
+            <ul className="dropdown-menu" aria-labelledby="servicesMenu">
+              <li>
+                <Link
+                  className="dropdown-item"
+                  to="/web-development"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  Web Development
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="dropdown-item"
+                  to="/erp-development"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  ERP/CRM Development
+                </Link>
+              </li>
+              <li></li>
+              <li>
+                <Link
+                  className="dropdown-item"
+                  to="/graphic-designing"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  Graphic Designing
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="dropdown-item"
+                  to="/digital-marketing"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  Digital Marketing
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="dropdown-item"
+                  to="/devops"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  DevOps
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="dropdown-item"
+                  to="/mobile-app-development"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  Mobile App Development
+                </Link>
+              </li>
+            </ul>
+          </li>
+          {/* <li className="nav-item">
             <Link to="/blog" className="nav-link">
               Blog
             </Link>
           </li> */}
-            <li className="nav-item">
-              <Link
-                to="/contact"
-                className="nav-link"
-                onClick={() => setIsOpen(!isOpen)}
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
+          <li className="nav-item">
+            <Link
+              to="/contact"
+              className="nav-link"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+        <div
+          className={`sidebar-overlay ${isOpen == true ? "active" : ""}`}
+          onClick={ToggleSidebar}
+        ></div>
         <div className="d-flex justify-content-between align-items-center">
           <a href="tel:+61 498 541 273">
             <h6 className="mb-0 nav-link contact">
