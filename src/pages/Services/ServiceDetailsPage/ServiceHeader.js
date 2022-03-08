@@ -1,11 +1,13 @@
 import { useState } from "react";
 import ContactForm from "../../Contact/ContactForm";
 import PureModal from "react-pure-modal";
+import SentMessage from "../../Contact/SentMessage";
 import "react-pure-modal/dist/react-pure-modal.min.css";
 import { BsXLg } from "react-icons/bs";
 
 const ServiceHeader = ({ heading, headerContent, img, bgImg }) => {
   const [modal, setModal] = useState(false);
+  const [msg, setMsg] = useState(false);
 
   return (
     <section className="service-header" style={{backgroundImage: `url(${bgImg})`}}>
@@ -18,7 +20,9 @@ const ServiceHeader = ({ heading, headerContent, img, bgImg }) => {
           return true;
         }}
       >
-        <ContactForm />
+        {
+          msg ? <SentMessage /> : <ContactForm setMsg={setMsg} />
+        }
       </PureModal>
 
       <div className="container-fuild">
@@ -32,7 +36,7 @@ const ServiceHeader = ({ heading, headerContent, img, bgImg }) => {
               </button>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-              <img src={img} alt="serviceBannerImage" />
+              <img className="sbimg" src={img} alt="serviceBannerImage" />
             </div>
           </div>
         </div>

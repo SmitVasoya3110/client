@@ -6,8 +6,10 @@ const ClientSaysCard = ({ name, post, image, message }) => {
       </div>
       <div className="client-message text-center">
         <p>{message}</p>
-        <h4 className="client-name">{name}</h4>
-        <h6 className="client-post">{post}</h6>
+        <div>
+          <h4 className="client-name">{name}</h4>
+          <h6 className="client-post">{post}</h6>
+        </div>
       </div>
     </div>
   );

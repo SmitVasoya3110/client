@@ -14,28 +14,17 @@ import Home from "./pages/Homepage/Home";
 import Services from "./pages/Services/Services";
 import Contact from "./pages/Contact/Contact";
 import ServiceDetails from "./pages/Services/ServiceDetailsPage/ServiceDetails";
-import { useLocation } from "react-router-dom";
+import BlogsList from "./pages/Blogs/BlogsList";
 
 function App() {
 
-  const [navColor, setNavColor] = useState(false);
-  // const location = useLocation();
-
   useEffect(() => {
     return () => {
-      window.removeEventListener("scroll", () => handleScroll);
-      // if(window.location.pathname === "/web-development") {
-      //   setNavColor(true);
-      // }
-      // else {
-      //   setNavColor(false);
-      // }
     };
   }, []);
 
   const [isSticky, setSticky] = useState(false);
   
-
   const handleScroll = () => {
     window.pageYOffset > 70 ? setSticky(true) : setSticky(false);
   };
@@ -46,7 +35,7 @@ function App() {
     <div>
       {/* <React.Suspense fallback={<AppLoader />}> */}
       <ScrollToTop />
-      <Header sticky={isSticky} navColor={navColor}/>
+      <Header sticky={isSticky}/>
       <Helmet>
         <title>DigiSurf | Australia</title>
         <meta name="description" content="Get all your IT related work done" />
@@ -61,6 +50,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blogs" element={<BlogsList />} />
         <Route path="/:slug" element={<ServiceDetails />} />
       </Routes>
       <Footer />

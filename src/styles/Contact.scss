@@ -11,6 +11,14 @@
     background-color: #ffffff10;
     box-shadow: 0 25px 45px rgb(0 0 0 / 20%);
   }
+
+  p {
+    color: $white;
+  }
+
+  option {
+    color: $black;
+  }
 }
 
 .form-bg {

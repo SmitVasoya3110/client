@@ -22,9 +22,9 @@ const ServiceDetails = () => {
   console.log(slug);
   console.log("data", data);
 
-  if (data.length === 0) {
-    return <p>Loading ...</p>;
-  }
+  // if (data.length === 0) {
+  //   return <p>Loading ...</p>;
+  // }
 
   return (
     <div>

@@ -10,7 +10,7 @@ const BulletPointsSection = ({ whyus, heading }) => {
                 to take advantage of a variety of advantages, including:
               </h4>
               <ul>
-                {whyus.map((wh, index) => (
+                {whyus && whyus.map((wh, index) => (
                   <li key={index}>{wh}</li>
                 ))}
               </ul>

@@ -8,15 +8,7 @@ $light-grey-bg: rgba(123, 134, 241, 0.07);
   background-size: cover;
   background-position: right;
 
-  .gradient-head {
-    font-size: 50px;
-    font-weight: bold;
-    background: linear-gradient(to right, #184951, $thm-pri-color-light);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  img {
+  .sbimg {
     margin: 0 auto;
     display: block;
     width: 100%;

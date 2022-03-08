@@ -5,10 +5,10 @@ import "../../styles/Home.scss";
 
 const AboutUsSection = () => {
   return (
-    <section className="aboutus-section my-5" id="about-us">
+    <section className="aboutus-section" id="about-us">
       <div className="container-fluid">
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-md-center">
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center mt-5">
               <img
                 src={cta}
@@ -16,12 +16,10 @@ const AboutUsSection = () => {
                 className="mb-5 block-img imgbounce w-100"
               />
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12">
               <h6 className="small-heading">About Us</h6>
               <h1 className="big-heading mb-4">
-                We Are Specialized In
-                <br />
-                Business Solution
+                We Are Specialized In Business Solution
               </h1>
               <p className="mb-4">
                 By partnering with <strong>Digisurf</strong>, you will be able

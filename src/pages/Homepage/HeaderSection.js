@@ -8,12 +8,12 @@ const HeaderSection = () => {
   return (
     <section className="title-header">
       <div className="container-fluid h-100">
-        {/* <div className="container h-100"> */}
+        <div className="container h-100">
           <div className="row h-100">
             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
               <div className="header-text">
                 {/* <h1 className="text-light">Integrating technology with strategies</h1> */}
-                <h1 className="text-uppercase">
+                <h1 className="text-uppercase gradient-head">
                   <strong>
                     Integrating technology
                     <br />
@@ -41,7 +41,7 @@ const HeaderSection = () => {
               />
             </div>
           </div>
-        {/* </div> */}
+        </div>
       </div>
     </section>
   );

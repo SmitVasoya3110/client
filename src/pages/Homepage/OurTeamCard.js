@@ -19,8 +19,9 @@ const OurTeamCard = ({photo, memberName, memberDesg}) => {
                     <FaGooglePlusG />
                     <FaBehance />
                 </div>
-                <h4>{memberName}</h4>
-                <h6 className="memb-post">{memberDesg}</h6>
+                <h1>{memberName}</h1>
+                <br />
+                <p className="memb-post">{memberDesg}</p>
             </div>
         </div>    
     );

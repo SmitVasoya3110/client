@@ -1,3 +1,43 @@
+@font-face {
+  font-family: Dosis;
+  src: url(../Fonts/Dosis-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../Fonts/Lato-Light.ttf);
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../Fonts/OpenSans-VariableFont_wdth_wght.ttf);
+}
+
+@font-face {
+  font-family: Oswald;
+  src: url(../Fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../Fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(../Fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: Mulish;
+  src: url(../Fonts/Mulish-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../Fonts/Poppins-Medium.ttf);
+}
+
 // ++++++ #184951
 // +++++ #1D6272
 // ++++ #86BFD0
@@ -17,6 +57,10 @@ $black: #000000;
 
 $big-heading-font: 60px;
 
+body {
+  font-size: Mulish;
+}
+
 .dropdown-menu[data-bs-popper] {
   left: unset;
 }
@@ -27,18 +71,28 @@ $big-heading-font: 60px;
   background-color: $thm-pri-color-light;
   padding: 4px 8px;
   display: inline-block;
-  margin: 0 auto;
+  margin: 0 auto 10px;
   //   font-size: 55px;
   font-size: 32px;
   font-weight: bold;
+  font-family: Mulish;
+}
+
+p{
+  font-family: Mulish;
+  color: $black;
+  line-height: 28px;
+  font-weight: 400;
+  font-size: 17px;
 }
 
 .big-heading {
   font-size: $big-heading-font;
+  font-family: Poppins;
 }
 
 .header-section {
-  background-image: url("../Images/pageheaderbg.jpeg");
+  // background-image: url("../Images/pageheaderbg.jpeg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -60,11 +114,11 @@ $big-heading-font: 60px;
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(
-    90deg,
-    rgba(75, 40, 196, 0.9) 0%,
-    rgba(139, 63, 174, 0.9) 100%
-  );
+  // background-image: linear-gradient(
+  //   90deg,
+  //   rgba(75, 40, 196, 0.9) 0%,
+  //   rgba(139, 63, 174, 0.9) 100%
+  // );
 }
 
 .pure-modal-backdrop {
@@ -190,10 +244,10 @@ $big-heading-font: 60px;
   }
 
   .header-section {
-    height: 100vh;
+    // height: 100vh;
 
     .heading-container {
-      padding: 120px 0;
+      padding: 140px 0 100px;
     }
   }
 }

@@ -4,6 +4,32 @@ footer {
   margin-top: 150px;
 
   .footer-section {
+
+    .footer-links {
+      list-style: none;
+      padding-left: unset;
+
+      li {
+        margin: 8px 0;
+        transition: all 0.5s ease-in-out;
+      }
+
+      li::before {
+        content: "\27A4";
+        color: $black;
+        margin-right: 10px;
+      }
+
+      a {
+        color: $black;
+      }
+
+      li:hover > a {
+        color: $thm-pri-color;
+      }
+
+    }
+
     .footer-img {
       position: absolute;
       bottom: -15%;

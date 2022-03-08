@@ -29,9 +29,15 @@ const Footer = () => {
           </div>
           <div className="row">
             <div className="col-6 col-md-6 col-lg-4">
-              <p className="mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
+              <ul className="footer-links">
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/web-development">Web Development</Link></li>
+                <li><Link to="/erp-development">ERP/CRM Development</Link></li>
+                <li><Link to="/graphic-designing">Graphic Designing</Link></li>
+                <li><Link to="/digital-marketing">Digital Marketing</Link></li>
+                <li><Link to="/devops">DevOps</Link></li>
+                <li><Link to="/mobile-app-development">Mobile App Development</Link></li>
+              </ul>
               {/* social media links */}
               <div className="d-flex mb-4 d-none">
                 <FaFacebookF className="footer-sm h5" />

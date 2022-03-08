@@ -11,7 +11,7 @@ const TechStack = ({ techStack }) => {
         </div>
       </div>
 
-      {techStack.map((ts, index) => (
+      {techStack && techStack.map((ts, index) => (
         <div key={index} className="container-fuild tech-container">
           <div className="container">
             <div className="row">

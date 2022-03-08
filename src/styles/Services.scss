@@ -1,5 +1,9 @@
 @import "./variables.scss";
 
+.serbanner {
+  width: 100%;
+}
+
 .ourservices-section {
   .sc-container {
     display: flex;
@@ -89,7 +93,11 @@
         .sc-container {
           flex-wrap: wrap;
         }
-    }      
+    }
+    
+    .serbanner {
+      display: none;
+    }
 }
 
 @media screen and (min-width: 0) and (max-width: 480px) {
@@ -97,5 +105,9 @@
         .sc-container {
           flex-wrap: wrap;
         }
+    }
+
+    .serbanner {
+      display: none;
     }
 }

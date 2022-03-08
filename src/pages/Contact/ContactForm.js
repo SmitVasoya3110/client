@@ -62,10 +62,6 @@ const ContactForm = ({ setMsg }) => {
     }
   };
 
-  // if (loading) {
-  //   return <MailLoader />;
-  // }
-
   return (
     <div className="container-fluid">
       <div className="container">
@@ -188,6 +184,9 @@ const ContactForm = ({ setMsg }) => {
                           Digital Marketing
                         </option>
                         <option value="devops">DevOps</option>
+                        <option value="mobile-application">
+                          Mobile Application
+                        </option>
                       </select>
                     </div>
 

@@ -1,5 +1,4 @@
 // import logolight from "../Images/logolight.png";
-import { useEffect } from "react";
 // import logolight from "../Images/transaprent-logo-1.png";
 import logolight from "../Images/transparent-logo.png";
 import { Link } from "react-router-dom";
@@ -8,6 +7,7 @@ import "../styles/Navbar.scss";
 import { BsTelephone, BsXLg } from "react-icons/bs";
 import { FaAngleDown } from "react-icons/fa";
 import { useState } from "react";
+import SentMessage from "../pages/Contact/SentMessage";
 import ContactForm from "../pages/Contact/ContactForm";
 import PureModal from "react-pure-modal";
 import "react-pure-modal/dist/react-pure-modal.min.css";
@@ -15,6 +15,7 @@ import "react-pure-modal/dist/react-pure-modal.min.css";
 const Header = ({ sticky }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [modal, setModal] = useState(false);
+  const [msg, setMsg] = useState(false);
 
   const ToggleSidebar = () => {
     isOpen === true ? setIsOpen(false) : setIsOpen(true);
@@ -31,7 +32,9 @@ const Header = ({ sticky }) => {
           return true;
         }}
       >
-        <ContactForm />
+        {
+          msg ? <SentMessage /> : <ContactForm setMsg={setMsg} />
+        }
       </PureModal>
 
       <nav className="navbar navbar-expand-lg">
@@ -68,67 +71,67 @@ const Header = ({ sticky }) => {
             </Link>
             <ul className="dropdown-menu" aria-labelledby="servicesMenu">
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="/web-development"
+                  href="/web-development"
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   Web Development
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="/erp-development"
+                  href="/erp-development"
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   ERP/CRM Development
-                </Link>
+                </a>
               </li>
               <li></li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="/graphic-designing"
+                  href="/graphic-designing"
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   Graphic Designing
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="/digital-marketing"
+                  href="/digital-marketing"
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   Digital Marketing
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="/devops"
+                  href="/devops"
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   DevOps
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="/mobile-app-development"
+                  href="/mobile-app-development"
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   Mobile App Development
-                </Link>
+                </a>
               </li>
             </ul>
           </li>
-          {/* <li className="nav-item">
-            <Link to="/blog" className="nav-link">
-              Blog
+          <li className="nav-item">
+            <Link to="/blogs" className="nav-link">
+              Blogs
             </Link>
-          </li> */}
+          </li>
           <li className="nav-item">
             <Link
               to="/contact"
@@ -140,7 +143,7 @@ const Header = ({ sticky }) => {
           </li>
         </ul>
         <div
-          className={`sidebar-overlay ${isOpen == true ? "active" : ""}`}
+          className={`sidebar-overlay ${isOpen === true ? "active" : ""}`}
           onClick={ToggleSidebar}
         ></div>
         <div className="d-flex justify-content-between align-items-center">

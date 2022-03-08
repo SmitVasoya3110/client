@@ -2,11 +2,13 @@ import whychooseus from "../../Images/wcuimage.png";
 import { useState } from "react";
 import ContactForm from "../Contact/ContactForm";
 import PureModal from "react-pure-modal";
+import SentMessage from "../Contact/SentMessage";
 import "react-pure-modal/dist/react-pure-modal.min.css";
 import { BsXLg } from "react-icons/bs";
 
 const WhyChooseUs = () => {
   const [modal, setModal] = useState(false);
+  const [msg, setMsg] = useState(false);
 
   return (
     <section className="whychooseus-section mb-5">
@@ -20,17 +22,20 @@ const WhyChooseUs = () => {
                 <strong>Flexible prices</strong>
                 <br />
                 We consistently prioritize our clients' budgets. As a result, we
-                offer the most reasonable price. <br /><br />
+                offer the most reasonable price. <br />
+                <br />
                 <strong>Simple solutions to complex queries</strong>
                 <br />
                 Our team is known for delivering cutting-edge solutions for
                 every assignment.
-                <br /><br />
+                <br />
+                <br />
                 <strong>Leading experts</strong>
                 <br />
                 We have a lot of techies on staff who have a lot of experience
                 in the software development and digital marketing sectors.
-                <br /><br />
+                <br />
+                <br />
                 <strong>High-quality standards</strong>
                 <br />
                 Quality is key to us, and we never compromise on it. Our team
@@ -49,7 +54,7 @@ const WhyChooseUs = () => {
                   return true;
                 }}
               >
-                <ContactForm />
+                {msg ? <SentMessage /> : <ContactForm setMsg={setMsg} />}
               </PureModal>
             </div>
             <div className="col-lg-6 col-md-16 col-sm-12 col-xs-12">

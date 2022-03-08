@@ -1,7 +1,9 @@
 import OurTeamCard from "./OurTeamCard";
-import portfolio1 from "../../Images/portfolio1.jpeg";
-import portfolio2 from "../../Images/portfolio2.jpeg";
-import portfolio3 from "../../Images/portfolio3.jpeg";
+import portfolio1 from "../../Images/DigiSurf-Client1.png";
+import portfolio2 from "../../Images/DigiSurf-Client2.png";
+import portfolio3 from "../../Images/DigiSurf-Client3.png";
+import portfolio4 from "../../Images/DigiSurf-Client4.png";
+import portfolio5 from "../../Images/DigiSurf-Client5.png";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
@@ -53,33 +55,31 @@ const OurProjects = () => {
             <OwlCarousel className="owl-theme" nav {...options}>
               <OurTeamCard
                 photo={portfolio1}
-                memberName="Creative Arts"
-                memberDesg="Design, Branding"
+                memberName="Retro Birdie"
+                memberDesg="Retro Birdie, a vintage Ice Cream and Desert Truck Hire. We have designed and developed the website and API’s for them. "
               />
               <OurTeamCard
                 photo={portfolio2}
-                memberName="Creative Arts"
-                memberDesg="Design, Branding"
+                memberName="Kell Co Legal"
+                memberDesg="The Kell Co Legal provides personalised migration assistance and general legal services in a range of legal areas. We have developed the website and conducted SEO audit on the project."
               />
               <OurTeamCard
                 photo={portfolio3}
-                memberName="Creative Arts"
-                memberDesg="Design, Branding"
+                memberName="MyWriters"
+                memberDesg="MyWriters is a content writing company. We have successfully designed and developed the UI/UX and Website for them."
               />
               <OurTeamCard
-                photo={portfolio1}
-                memberName="Creative Arts"
-                memberDesg="Design, Branding"
+                photo={portfolio4}
+                memberName="Printing 7"
+                memberDesg="Printing 7 is a Bondi Beach based printing shop. We have developed a Printing Management Software application for them."
+              />
+              <OurTeamCard
+                photo={portfolio5}
+                memberName="Sunmoon Chemical"
+                memberDesg="Sunmoon Chemical is an international company that produces medicines and mainly conducts activities related to the pharmacy industry. We have developed mobile app and website for them."
               />
             </OwlCarousel>
           </div>
-          {/* <div className="row">
-            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-              <button className="btn-pri mt-5">
-                View More <BsChevronDoubleRight />
-              </button>
-            </div>
-          </div> */}
         </div>
       </div>
     </section>

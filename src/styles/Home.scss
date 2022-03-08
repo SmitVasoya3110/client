@@ -26,9 +26,18 @@
   animation: ImgBounceRev 5s ease-in-out 0s infinite alternate;
 }
 
+.gradient-head {
+  font-size: 50px;
+  font-weight: bold;
+  background: linear-gradient(to right, #184951, #53d2e6);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .title-header {
   // background-image: url("../Images/bannerbg1.png");
-  height: 1250px;
+  // height: 1250px;
+  height: 1000px;
   background-repeat: no-repeat;
   background-position: top left;
   position: relative;
@@ -36,11 +45,12 @@
   .header-text {
     position: absolute;
     top: 30%;
-    left: 10%;
+    // left: 10%;
     transform: translate(0, -30%);
 
     h1 {
       font-size: 60px;
+      font-family: Poppins;
     }
   }
 
@@ -91,6 +101,10 @@
   .owl-nav {
     display: none;
   }
+}
+
+.aboutus-section {
+  margin: 100px 0;
 }
 
 .whylikeus-section {
@@ -144,7 +158,7 @@
   }
   .team-memb-info {
     width: 85%;
-    height: 85%;
+    height: auto;
     border-radius: 50px;
     background-color: transparent;
     position: absolute;
@@ -166,7 +180,6 @@
       transition: all 0.5s ease;
     }
     .memb-post {
-      text-transform: uppercase;
       color: $thm-pri-color;
     }
   }
@@ -205,12 +218,12 @@
     .owl-next {
       position: absolute;
       top: 40%;
-      right: -4%;
+      right: -7%;
     }
     .owl-prev {
       position: absolute;
       top: 40%;
-      left: -4%;
+      left: -7%;
     }
   }
 }
@@ -264,6 +277,8 @@
       .client-image {
         img {
           width: 60px;
+          height: 60px;
+          object-fit: cover;
           margin: 0 auto 40px;
           border-radius: 50%;
         }
@@ -272,6 +287,10 @@
         padding: 20px;
         box-shadow: 0px 4px 35px 0px rgb(186 186 186 / 34%);
         position: relative;
+        min-height: 310px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 
         .client-name {
           font-weight: bold;
@@ -362,7 +381,7 @@
 
 .buildbusiness-section {
   padding-top: 50px;
-  .row {
+  .bb-row {
     padding: 100px;
     // background-image: linear-gradient(
     //   45deg,
@@ -421,6 +440,21 @@
   }
   .block-img {
     width: 100%;
+  }
+
+  .ourprojects-section {
+    .owl-nav {
+      .owl-next {
+        right: -4%;
+        width: 50px;
+        height: 50px;
+      }
+      .owl-prev {
+        left: -4%;
+        width: 50px;
+        height: 50px;
+      }
+    }
   }
 }
 
@@ -486,7 +520,6 @@
 }
 
 @media screen and (min-width: 0) and (max-width: 480px) {
-
   .title-header {
     .header-text {
       h1 {
