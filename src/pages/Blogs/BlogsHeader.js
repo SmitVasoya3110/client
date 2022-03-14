@@ -4,9 +4,9 @@ const BlogsHeader = () => {
       <div className="container-fluid">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 col-md-12 col-12 text-center text-light">
+            <div className="col-lg-12 col-md-12 col-12 text-center">
               <div className="heading-container position-relative">
-                <h1 className="big-heading">Blogs</h1>
+                <h1 className="big-heading gradient-head pb-2">Blogs</h1>
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi
                   quia impedit cupiditate et rerum eos! Maiores inventore,

@@ -1,9 +1,18 @@
+@import "./variables.scss";
+
 .blogs-card {
     padding: 20px;
     box-shadow: 0 0 20px #00000030;
     border-radius: 30px;
+    transition: all 0.4s ease-in-out;
+    background-color: $white;
+    margin-bottom: 30px;
 
     img {
         width: 100%;
     }
+}
+
+.blogs-card:hover {
+    transform: scale(1.1);
 }

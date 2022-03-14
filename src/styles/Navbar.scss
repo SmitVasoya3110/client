@@ -23,6 +23,10 @@ header {
   color: $black !important;
 }
 
+.nav-link:focus, .nav-link:hover {
+  color: $thm-pri-color;
+}
+
 :target::before {
   content: "";
   display: block;
@@ -176,7 +180,7 @@ li.nav-item {
 //     }
 // }
 
-@media screen and (min-width: 0) and (max-width: 991px) {
+@media screen and (min-width: 0) and (max-width: 1024px) {
   .navbar {
     justify-content: space-evenly;
 

@@ -52,6 +52,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blogs" element={<BlogsList />} />
         <Route path="/:slug" element={<ServiceDetails />} />
+        <Route path="/blogs/:slug" />
       </Routes>
       <Footer />
       {/* </React.Suspense> */}

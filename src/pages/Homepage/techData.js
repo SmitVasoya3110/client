@@ -65,27 +65,6 @@ export const frontend = [
   },
 ];
 
-export const cms = [
-  {
-    icon: <FaWordpressSimple />,
-    title: "Worpress",
-    description:
-      "WordPress is an easy-to-use open-source system with a large plugin catalogue and a simple dashboard. WordPress comes with one of the most user-friendly programming paradigms, which makes e-commerce race creation a breeze. A complete shopping cart solution built with our WordPress development service is a more cost-effective approach to offering your goods or services.",
-  },
-  {
-    icon: <FaShopify />,
-    title: "Shopify",
-    description:
-      "Digisurf is delighted to be a Shopify e-commerce development company that offers full Shopify services to online stores that have been in business for years, those who have just started their e-commerce journey, and even organizations such as shipping or payment service providers seeking ways to combine their services with the Shopify platform.",
-  },
-  {
-    icon: <FaWix />,
-    title: "Wix",
-    description:
-      "Discover the high capabilities of the multi-potential Wix platform. We have well-trained and perfectly skilled developers on staff at Digisurf who can create complex Wix websites. On the advanced websites built on this sturdy platform, you may plan business promotions, administer your online store, and present work to high-profile clients.",
-  },
-];
-
 export const backend = [
   {
     icon: <FaNodeJs />,
@@ -98,21 +77,6 @@ export const backend = [
     title: "Python",
     description:
       "Python is a popular programming language that may be used to develop a wide range of applications. It combines high-level data construction, active typing, sophisticated binding, and a slew of other features to help developers create complicated applications with scripting or 'glue code' that connects pieces. It may be extended to make custom calls to almost any operating system and run C or C++ code. Python is a widely used programming language due to its universality and ability to run on almost any system architecture.",
-  },
-];
-
-export const graphic = [
-  {
-    icon: <SiAdobephotoshop />,
-    title: "Photoshop",
-    description:
-      "It is the most extensively used image editing, graphic design, and digital art software programme. It enables users to generate and edit photographs before saving them in a variety of formats. Professional photographers and graphic designers are big fans of this software.",
-  },
-  {
-    icon: <SiAdobeillustrator />,
-    title: "iIllustrator",
-    description:
-      "Our designers use Illustrator to create logos, icons, charts, infographics, posters, advertisements, books, magazines, and brochures. It's even used by comic book illustrators. It's the industry-standard software tool for anyone who wishes to work with vector graphics from anywhere in the world.",
   },
 ];
 
@@ -136,3 +100,41 @@ export const devops = [
       "GitHub is a free cloud service that allows software developers and engineers to create remote, public-facing repositories. You can transfer a GitHub repository to your device, add and alter files locally, and then 'push' your changes back to the repository, where they will be visible to the public.",
   },
 ];
+
+export const cms = [
+  {
+    icon: <FaWordpressSimple />,
+    title: "Worpress",
+    description:
+      "WordPress is an easy-to-use open-source system with a large plugin catalogue and a simple dashboard. WordPress comes with one of the most user-friendly programming paradigms, which makes e-commerce race creation a breeze. A complete shopping cart solution built with our WordPress development service is a more cost-effective approach to offering your goods or services.",
+  },
+  {
+    icon: <FaShopify />,
+    title: "Shopify",
+    description:
+      "Digisurf is delighted to be a Shopify e-commerce development company that offers full Shopify services to online stores that have been in business for years, those who have just started their e-commerce journey, and even organizations such as shipping or payment service providers seeking ways to combine their services with the Shopify platform.",
+  },
+  {
+    icon: <FaWix />,
+    title: "Wix",
+    description:
+      "Discover the high capabilities of the multi-potential Wix platform. We have well-trained and perfectly skilled developers on staff at Digisurf who can create complex Wix websites. On the advanced websites built on this sturdy platform, you may plan business promotions, administer your online store, and present work to high-profile clients.",
+  },
+];
+
+export const graphic = [
+  {
+    icon: <SiAdobephotoshop />,
+    title: "Photoshop",
+    description:
+      "It is the most extensively used image editing, graphic design, and digital art software programme. It enables users to generate and edit photographs before saving them in a variety of formats. Professional photographers and graphic designers are big fans of this software.",
+  },
+  {
+    icon: <SiAdobeillustrator />,
+    title: "iIllustrator",
+    description:
+      "Our designers use Illustrator to create logos, icons, charts, infographics, posters, advertisements, books, magazines, and brochures. It's even used by comic book illustrators. It's the industry-standard software tool for anyone who wishes to work with vector graphics from anywhere in the world.",
+  },
+];
+
+

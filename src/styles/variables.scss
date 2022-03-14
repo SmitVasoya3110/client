@@ -57,6 +57,10 @@ $black: #000000;
 
 $big-heading-font: 60px;
 
+.d-custom-none {
+  display: none;
+}
+
 body {
   font-size: Mulish;
 }
@@ -78,7 +82,7 @@ body {
   font-family: Mulish;
 }
 
-p{
+p {
   font-family: Mulish;
   color: $black;
   line-height: 28px;
@@ -158,8 +162,9 @@ p{
   text-transform: capitalize;
   transition: none;
   border-radius: 30px;
-  border: 2px solid #7fffd4;
-  box-shadow: -6px 2px 15px #7fffd4;
+  border: 2px solid $thm-pri-color;
+  opacity: 1;
+  // box-shadow: -6px 2px 15px #7fffd4;
 }
 
 .ourservices-section .Mui-selected,
@@ -207,9 +212,7 @@ p{
 }
 
 @media screen and (min-width: 0) and (max-width: 768px) {
-
   .pure-modal-backdrop .pure-modal {
-
     .panel-body {
       padding: unset;
     }

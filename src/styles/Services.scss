@@ -15,13 +15,16 @@
       padding: 50px 20px;
       background-color: $thm-pri-color-light;
       border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
 
       .sc-icon {
         color: $thm-pri-color;
         font-size: 32px;
-        margin-bottom: 10px;
         position: relative;
         transition: all 0.4s ease-in-out;
+        margin: 0 auto;
       }
 
       h4 {
@@ -39,7 +42,7 @@
         border-radius: 50%;
         padding: 10px 14px;
         border: none;
-        background-color: #1D627270;
+        background-color: #1d627270;
         color: $white;
         position: relative;
         transition: all 0.4s ease-in-out;
@@ -69,45 +72,49 @@
       bottom: 0;
       border-radius: 16px;
       transition: background-image 0.4s ease-in-out;
-    //   background-image: linear-gradient(
-    //     90deg,
-    //     rgba(75, 40, 196, 0.9) 0%,
-    //     rgba(139, 63, 174, 0.9) 100%
-    //   );
+      //   background-image: linear-gradient(
+      //     90deg,
+      //     rgba(75, 40, 196, 0.9) 0%,
+      //     rgba(139, 63, 174, 0.9) 100%
+      //   );
       background-image: linear-gradient(
         45deg,
         rgb(29, 98, 114, 0.9) 0%,
-        rgb(134, 191, 208, 0.9) 100%);
+        rgb(134, 191, 208, 0.9) 100%
+      );
     }
   }
 }
 
 .whychooseus-section {
-    .wcu-img {
-        width: 100%;
-    }
+  .wcu-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 0 60px 60px 60px;
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    .ourservices-section {
-        .sc-container {
-          flex-wrap: wrap;
-        }
+  .ourservices-section {
+    .sc-container {
+      flex-wrap: wrap;
     }
-    
-    .serbanner {
-      display: none;
-    }
+  }
+
+  .serbanner {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 0) and (max-width: 480px) {
-    .ourservices-section {
-        .sc-container {
-          flex-wrap: wrap;
-        }
+  .ourservices-section {
+    .sc-container {
+      flex-wrap: wrap;
     }
+  }
 
-    .serbanner {
-      display: none;
-    }
+  .serbanner {
+    display: none;
+  }
 }

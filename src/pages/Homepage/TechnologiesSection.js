@@ -113,25 +113,22 @@ export default function TechnologiesSection() {
                   <Tab label="Front End" {...a11yProps(0)}>
                     Front End
                   </Tab>
-                  <Tab label="CMS" {...a11yProps(1)}>
-                    CMS
-                  </Tab>
                   <Tab label="Backend" {...a11yProps(2)}>
                     Backend
-                  </Tab>
-                  <Tab label="Graphic Designing" {...a11yProps(3)}>
-                    Graphic Designing
                   </Tab>
                   <Tab label="DevOps" {...a11yProps(4)}>
                     DevOps
                   </Tab>
+                  <Tab label="CMS" {...a11yProps(1)}>
+                    CMS
+                  </Tab>
+                  <Tab label="Graphic Designing" {...a11yProps(3)}>
+                    Graphic Designing
+                  </Tab>
                 </Tabs>
 
-                <SwipeableViews
-                  index={value}
-                  onChangeIndex={handleChangeIndex}
-                >
-                {/* <AutoPlaySwipeableViews
+                <SwipeableViews index={value} onChangeIndex={handleChangeIndex}>
+                  {/* <AutoPlaySwipeableViews
                   index={value}
                   onChangeIndex={handleChangeIndex}
                 > */}
@@ -222,7 +219,7 @@ export default function TechnologiesSection() {
                       ))}
                     </OwlCarousel>
                   </TabPanel>
-                  </SwipeableViews>
+                </SwipeableViews>
                 {/* </AutoPlaySwipeableViews> */}
               </div>
             </div>

@@ -1,4 +1,4 @@
-import whychooseus from "../../Images/wcuimage.png";
+import whychooseus from "../../Images/whychooose.jpg";
 import { useState } from "react";
 import ContactForm from "../Contact/ContactForm";
 import PureModal from "react-pure-modal";

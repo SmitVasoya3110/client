@@ -1,5 +1,8 @@
 import ServicesCard from "./ServicesCard";
-import { FaHandHoldingUsd } from "react-icons/fa";
+import { FaFacebookMessenger, FaAppStore } from "react-icons/fa";
+import { GrReactjs } from "react-icons/gr";
+import { FiDatabase } from "react-icons/fi";
+import { SiAdobeillustrator, SiAzuredevops } from "react-icons/si";
 
 const OurServices = () => {
   return (
@@ -8,7 +11,7 @@ const OurServices = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-              <h1 className="big-heading">Services Digisurf Offers</h1>
+              <h1 className="big-heading">Services DigiSurf Offers</h1>
               <p>
                 We got our hands on the latest technologies, tools, and tactics
                 to grow your business widely.
@@ -19,22 +22,22 @@ const OurServices = () => {
           <div className="row">
             <div className="col-lg-12 col-mg-12 col-sm-12 col-xs-12 sc-container">
               <ServicesCard
-                icon={<FaHandHoldingUsd className="sc-icon" />}
+                icon={<GrReactjs className="sc-icon" />}
                 title="Web Developement"
                 description="Our team is fully knowledgeable and skilled in web development, employing the most appropriate technologies such as REACT, REDUX, NODEJS, Python, and many more."
                 link="/web-development"
               />
               <ServicesCard
-                icon={<FaHandHoldingUsd className="sc-icon" />}
+                icon={<FiDatabase className="sc-icon" />}
                 title="ERP/CRM Development"
-                description="Our skilled staff creates tailored ERP and CRM systems to match your specific business needs. Our ERP enables you to successfully plan, integrate, perform, and automate business activities. Across all industry sectors, our CRM creation enhances business potency."
+                description="Our skilled staff creates tailored ERP and CRM systems to match your specific business needs. Our ERP enables you to successfully plan, integrate, perform, and automate business activities."
                 link="/erp-development"
               />
               <ServicesCard
-                icon={<FaHandHoldingUsd className="sc-icon" />}
-                title="Graphic Designing"
-                description="We provide unique and high-quality UI/UX, Logo Design, and Banner/Poster layouts that drive online traffic, attract visitors, persuade consumers, and enhance click-through rates."
-                link="/graphic-designing"
+                icon={<FaAppStore className="sc-icon" />}
+                title="Mobile App Development"
+                description="Our team of mobile app developers is innovative and knowledgeable to meet your demands as well as your business requirements."
+                link="/mobile-app-development"
               />
             </div>
           </div>
@@ -42,22 +45,22 @@ const OurServices = () => {
           <div className="row">
             <div className="col-lg-12 col-mg-12 col-sm-12 col-xs-12 sc-container">
               <ServicesCard
-                icon={<FaHandHoldingUsd className="sc-icon" />}
-                title="Digital Marketing"
-                description="We, at Digisurf, deliver end-to-end marketing solutions for all types of businesses. Our services encompass all stages of IT solutions and business digital marketing, allowing your company to build a strong brand."
-                link="/digital-marketing"
-              />
-              <ServicesCard
-                icon={<FaHandHoldingUsd className="sc-icon" />}
+                icon={<SiAzuredevops className="sc-icon" />}
                 title="DevOps"
-                description="Digisurf will keep your business, development, and operations teams on the same page regarding the best method to enhance corporate apps, increase IT security, and maximize infrastructure resources as an established DevOps services provider."
+                description="Digisurf will keep your business, development, and operations teams on the same page regarding the best method to enhance corporate apps, increase IT security."
                 link="/devops"
               />
               <ServicesCard
-                icon={<FaHandHoldingUsd className="sc-icon" />}
-                title="Mobile App Development"
-                description="Lorem ipsum dolor sit amet conse ctetur adipisicing elit sed do eiusmod tempor incididunt ut labore et"
-                link="/mobile-app-development"
+                icon={<SiAdobeillustrator className="sc-icon" />}
+                title="Graphic Designing"
+                description="We provide unique and high-quality UI/UX, Logo Design, and Banner/Poster layouts that drive online traffic, attract visitors, persuade consumers, etc."
+                link="/graphic-designing"
+              />
+              <ServicesCard
+                icon={<FaFacebookMessenger className="sc-icon" />}
+                title="Digital Marketing"
+                description="We, at Digisurf, deliver end-to-end marketing solutions for all types of businesses. All services including SEO, SEM, PPC, SMO, content marketing, and social media."
+                link="/digital-marketing"
               />
             </div>
           </div>

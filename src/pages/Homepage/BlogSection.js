@@ -44,12 +44,6 @@ const BlogSection = () => {
                 <br />
                 News and Blog
               </h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. At qui
-                eos adipisci dicta unde nisi repellendus cumque possimus, ipsam
-                nobis! Impedit magnam modi omnis delectus aut nesciunt sit ea
-                eveniet!
-              </p>
             </div>
             <div className="col-lg-7 col-md-5 col-sm-12 col-xs-12">
               <div className="blog-carousel">

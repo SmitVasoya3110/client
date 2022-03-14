@@ -1,6 +1,6 @@
 import "../../styles/Home.scss";
 import { BsChevronDoubleRight } from "react-icons/bs";
-import headerimg from "../../Images/banner-illustration-1.png";
+import headerimg from "../../Images/HOME-BANNER.png";
 // import headerimg from "../../Images/headerbgalt.jpeg";
 import { Link } from "react-router-dom";
 

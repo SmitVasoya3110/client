@@ -1,4 +1,4 @@
-import footerimg from "../Images/bottom-section-1.png";
+import footerimg from "../Images/ABOUT-US.png";
 import logodark from "../Images/transparent-logo.png";
 import { Link } from "react-router-dom";
 import "../styles/Footer.scss";
@@ -53,24 +53,24 @@ const Footer = () => {
                   <BsFillPinMapFill className="footer-sm h5" />
                   Address
                 </h5>
-                <h6 className="mb-4">
+                <p className="mb-4">
                   Bondi Beach
                   <br />
                   Sydney, Australia
-                </h6>
+                </p>
                 <h5>
                   <BsTelephone className="footer-sm h5" />
                   Contact
                 </h5>
-                <a href="tel:+61 498 541 273">
-                  <h6 className="mb-3 text-dark">+61 498 541 273</h6>
+                <a className="phone-link" href="tel:+61 498 541 273">
+                  <p className="mb-3 text-dark">+61 498 541 273</p>
                 </a>
               </div>
             </div>
             <hr />
             <div className="row">
               <div className="col-12">
-                Copy@2022 <span className="fcp-brand">DigiSurf</span>. All Right
+                Copy@2022 <Link to="/" className="fcp-brand">DigiSurf</Link>. All Right
                 Reserved.
               </div>
             </div>

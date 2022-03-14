@@ -1,4 +1,4 @@
-import servicebanner from "../../Images/service-banner.png"
+import servicebanner from "../../Images/SERVICES.png"
 
 const HeaderSection = ({ title }) => {
   return (

@@ -28,10 +28,12 @@ const BuildBusiness = () => {
             <h1 className="big-heading text-light">
               Ready to GROW? Let's make it happen.
             </h1>
-            <h2 className="text-light">
-              We will deliver all the solutions with no hassle and any hidden
-              charges.
-            </h2>
+            <h4 className="text-light">
+              <em>
+                We will deliver all the solutions with no hassle and any hidden
+                charges.
+              </em>
+            </h4>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center align-items-center">
             <button className="btn-white-border" onClick={() => setModal(true)}>

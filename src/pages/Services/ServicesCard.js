@@ -5,7 +5,7 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 const ServicesCard = ({ icon, title, description, link }) => {
   return (
     <Tilt
-      perspective={500}
+      perspective={1000}
       className="service-card text-center parallax-effect"
     >
       {icon}

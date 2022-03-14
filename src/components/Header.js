@@ -48,17 +48,17 @@ const Header = ({ sticky }) => {
         </Link>
         <ul className={`navbar-nav ${isOpen ? "mopen" : "close"}`}>
           <li className="nav-item">
-            <Link
-              to="/"
+            <a
+              href="/"
               className="nav-link"
               onClick={() => setIsOpen(!isOpen)}
             >
               Home
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
             <a
-              href="#about-us"
+              href="/#about-us"
               className="nav-link"
               onClick={() => setIsOpen(!isOpen)}
             >
@@ -66,9 +66,12 @@ const Header = ({ sticky }) => {
             </a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/services" id="servicesMenu">
+            <Link className="nav-link d-sm-block d-lg-none" to="/services" id="servicesMenu">
               Services <FaAngleDown />
             </Link>
+            <a className="nav-link d-lg-block d-custom-none" href="/services" id="servicesMenu">
+              Services <FaAngleDown />
+            </a>
             <ul className="dropdown-menu" aria-labelledby="servicesMenu">
               <li>
                 <a
@@ -88,7 +91,24 @@ const Header = ({ sticky }) => {
                   ERP/CRM Development
                 </a>
               </li>
-              <li></li>
+              <li>
+                <a
+                  className="dropdown-item"
+                  href="/mobile-app-development"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  Mobile App Development
+                </a>
+              </li>
+              <li>
+                <a
+                  className="dropdown-item"
+                  href="/devops"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  DevOps
+                </a>
+              </li>
               <li>
                 <a
                   className="dropdown-item"
@@ -105,24 +125,6 @@ const Header = ({ sticky }) => {
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   Digital Marketing
-                </a>
-              </li>
-              <li>
-                <a
-                  className="dropdown-item"
-                  href="/devops"
-                  onClick={() => setIsOpen(!isOpen)}
-                >
-                  DevOps
-                </a>
-              </li>
-              <li>
-                <a
-                  className="dropdown-item"
-                  href="/mobile-app-development"
-                  onClick={() => setIsOpen(!isOpen)}
-                >
-                  Mobile App Development
                 </a>
               </li>
             </ul>
@@ -147,14 +149,14 @@ const Header = ({ sticky }) => {
           onClick={ToggleSidebar}
         ></div>
         <div className="d-flex justify-content-between align-items-center">
-          <a href="tel:+61 498 541 273">
+          <a className="phone-link" href="tel:+61 498 541 273">
             <h6 className="mb-0 nav-link contact">
               <BsTelephone className="me-1" />
               +61 498 541 273
             </h6>
           </a>
           <button
-            className="btn-pri btn-pri-shadow me-5"
+            className="btn-pri btn-pri-shadow me-5 call-bak-btn"
             onClick={() => setModal(true)}
           >
             Request a Call Back

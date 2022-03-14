@@ -1,15 +1,17 @@
 @import "./variables.scss";
 
 .cf-section {
-  background-image: url("../Images/bannerbg1.png");
+  // background-image: url("../Images/bannerbg1.png");
+  background-image: url("../Images/contactbg.jpg");
   background-size: cover;
   background-attachment: fixed;
-  padding: 200px 0 100px;
+  padding: 100px 0;
   position: relative;
+  margin-top: 130px;
 
   .form-bg {
-    background-color: #ffffff10;
-    box-shadow: 0 25px 45px rgb(0 0 0 / 20%);
+    background-color: #ffffff05;
+    box-shadow: 0 0 16px rgb(255 255 255 / 25%);
   }
 
   p {
@@ -25,7 +27,7 @@
   // background-color: #1d627280;
   background-color: #66929ce0;
   padding: 30px;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(5px);
   // box-shadow: 0 25px 45px rgb(0 0 0 / 20%);
   color: $white;
   border-radius: 30px;
