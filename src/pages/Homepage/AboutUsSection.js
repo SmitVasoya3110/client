@@ -1,4 +1,4 @@
-import cta from "../../Images/mid-section-1.png";
+import cta from "../../Images/ABOUT-US.png";
 import { BsChevronDoubleRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import "../../styles/Home.scss";

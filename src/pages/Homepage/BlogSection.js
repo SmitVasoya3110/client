@@ -45,7 +45,7 @@ const BlogSection = () => {
                 News and Blog
               </h1>
             </div>
-            <div className="col-lg-7 col-md-5 col-sm-12 col-xs-12">
+            <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">
               <div className="blog-carousel">
                 <OwlCarousel className="owl-theme" loop nav {...bsoptions}>
                   {blogData.map((bd, index) => (

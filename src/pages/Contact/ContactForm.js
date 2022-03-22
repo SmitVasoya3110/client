@@ -70,12 +70,12 @@ const ContactForm = ({ setMsg }) => {
           <div className="row">
             <div className="col-lg-4 col-md-6 col-12 p-5">
               <h1>Get in Touch</h1>
-              <p>We love to hear from you. Our team is always here to chat.</p>
+              <p className="text-light">We love to hear from you. Our team is always here to chat.</p>
               <div className="d-flex mb-5">
                 <FaEnvelope className="me-3 h3" />
                 <div>
                   <h4>Email Us</h4>
-                  <p>Our team is here to help you.</p>
+                  <p className="text-light">Our team is here to help you.</p>
                   <h6>info@digisurfaustralia.com.au</h6>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const ContactForm = ({ setMsg }) => {
                 <FaMapMarkerAlt className="me-3 h3" />
                 <div>
                   <h4>Office</h4>
-                  <p className="mb-0">Come say hello at our office HQ.</p>
+                  <p className="mb-0 text-light">Come say hello at our office HQ.</p>
                   <h6 className="mb-0">Bondi Beach, Sydney</h6>
                 </div>
               </div>
@@ -91,7 +91,7 @@ const ContactForm = ({ setMsg }) => {
                 <FaPhoneAlt className="me-3 h3" />
                 <div>
                   <h4>Phone</h4>
-                  <p className="mb-0">Mon-Fri from 8am-6pm</p>
+                  <p className="mb-0 text-light">Mon-Fri from 8am-6pm</p>
                   <a href="tel:+61 498 541 273">
                     <h6 className="mb-0 nav-link text-light">
                       +61 498 541 273

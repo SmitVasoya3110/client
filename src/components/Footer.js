@@ -1,5 +1,5 @@
-import footerimg from "../Images/ABOUT-US.png";
-import logodark from "../Images/transparent-logo.png";
+import footerimg from "../Images/FOOTER.png";
+import logodark from "../Images/LOGO2.jpg";
 import { Link } from "react-router-dom";
 import "../styles/Footer.scss";
 import {

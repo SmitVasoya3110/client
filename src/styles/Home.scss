@@ -37,14 +37,14 @@
 .title-header {
   // background-image: url("../Images/bannerbg1.png");
   // height: 1250px;
-  height: 800px;
+  height: 700px;
   background-repeat: no-repeat;
   background-position: top left;
   position: relative;
 
   .header-text {
     position: absolute;
-    top: 30%;
+    top: 40%;
     // left: 10%;
     transform: translate(0, -30%);
 
@@ -56,7 +56,7 @@
 
   .header-img {
     position: absolute;
-    top: 20%;
+    top: 38%;
     right: 5%;
     width: 90%;
   }
@@ -91,7 +91,7 @@
 .tech-section {
   background-color: rgba(123, 134, 241, 0.07);
   padding-top: 50px;
-  height: 700px;
+  min-height: 700px;
   svg {
     font-size: 100px;
     margin: 0 auto;
@@ -461,6 +461,28 @@
   }
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1224px) {
+  .title-header {
+    height: 700px;
+
+    .header-text {
+      top: 40%;
+    }
+
+    .header-img {
+      top: 40%;
+    }
+  }
+
+  .blog-section .blog-carousel .owl-carousel .owl-nav button.owl-prev {
+    bottom: 18%;
+  }
+  .blog-section .blog-carousel .owl-carousel .owl-nav button.owl-next {
+    bottom: 18%;
+    left: -60%;
+  }
+}
+
 @media screen and (max-width: 1160px) {
   // section .container {
   //   max-width: 100% !important;
@@ -474,10 +496,6 @@
   // //   margin-right: 10px !important;
   // // }
 
-  .title-header {
-    height: 100vh;
-  }
-
   .title-header .header-text h1 {
     font-size: 50px;
   }
@@ -486,7 +504,7 @@
     margin: 0;
   }
 
-  .ourservices-section .MuiButtonBase-root, 
+  .ourservices-section .MuiButtonBase-root,
   .tech-section .MuiButtonBase-root {
     padding: 6px !important;
   }
@@ -502,9 +520,9 @@
     }
   }
 
-  header .nav-item {
-    margin: 0 10px;
-  }
+  // header .nav-item {
+  //   margin: 0 10px;
+  // }
 
   .title-header .header-text h1 {
     font-size: 44px;
@@ -512,6 +530,17 @@
 }
 
 @media screen and (min-width: 0) and (max-width: 1024px) {
+  .title-header {
+    height: 600px;
+
+    .header-text {
+      top: 40%;
+    }
+
+    .header-img {
+      top: 40%;
+    }
+  }
 
   .block-img {
     width: 100%;
@@ -526,13 +555,25 @@
   }
 }
 
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .owl-nav {
+    display: none;
+  }
+}
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .title-header {
+    height: 500px;
+
     .header-text {
+      top: 45%;
       h1 {
         font-size: 32px;
       }
+    }
+
+    .header-img {
+      top: 40%;
     }
   }
 
@@ -571,13 +612,16 @@
   }
 }
 
-@media screen and (min-width: 0) and (max-width: 480px) {
+@media screen and (min-width: 0) and (max-width: 425px) {
   .title-header {
     .header-text {
       top: 45%;
       h1 {
         font-size: 50px;
       }
+    }
+    .header-img {
+      display: none;
     }
   }
   .ourteam-section {
@@ -626,5 +670,17 @@
     .row {
       padding: 50px;
     }
+  }
+}
+
+@media screen and (min-width: 787px) and (max-width: 991px) {
+  .buildbusiness-section {
+    .bb-row {
+      padding: 50px;
+    }
+  }
+
+  .blog-section .blog-carousel .owl-stage-outer {
+    margin: 0;
   }
 }

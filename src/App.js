@@ -26,7 +26,7 @@ function App() {
   const [isSticky, setSticky] = useState(false);
   
   const handleScroll = () => {
-    window.pageYOffset > 70 ? setSticky(true) : setSticky(false);
+    window.pageYOffset > 50 ? setSticky(true) : setSticky(false);
   };
 
   window.addEventListener("scroll", handleScroll);
