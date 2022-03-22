@@ -1,11 +1,11 @@
 // import logolight from "../Images/logolight.png";
 // import logolight from "../Images/transaprent-logo-1.png";
-import logolight from "../Images/transparent-logo.png";
+import logolight from "../Images/LOGO2.jpg";
 import { Link } from "react-router-dom";
 import "../styles/Button.scss";
 import "../styles/Navbar.scss";
 import { BsTelephone, BsXLg } from "react-icons/bs";
-import { FaAngleDown } from "react-icons/fa";
+import { FaAngleDown, FaPhoneAlt } from "react-icons/fa";
 import { useState } from "react";
 import SentMessage from "../pages/Contact/SentMessage";
 import ContactForm from "../pages/Contact/ContactForm";
@@ -161,6 +161,7 @@ const Header = ({ sticky }) => {
           >
             Request a Call Back
           </button>
+          <FaPhoneAlt onClick={() => setModal(true)} className="phn-call-back-btn" />
           <button
             className={`mb-menu ${isOpen ? "mopen" : "close"}`}
             onClick={() => setIsOpen(!isOpen)}

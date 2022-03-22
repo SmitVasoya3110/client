@@ -30,7 +30,7 @@ footer {
 
     .footer-img {
       position: absolute;
-      bottom: -15%;
+      bottom: -5%;
       right: 0;
       z-index: 2;
       width: 50%;
@@ -65,5 +65,11 @@ footer {
         width: 100%;
       }
     }
+  }
+}
+
+@media screen and (min-width: 787px) and (max-width: 991px) {
+  .footer-img {
+    display: none;
   }
 }

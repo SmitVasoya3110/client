@@ -2,20 +2,23 @@
 
 .cf-section {
   // background-image: url("../Images/bannerbg1.png");
-  background-image: url("../Images/contactbg.jpg");
-  background-size: cover;
+  // background-image: url("../Images/contactbg.jpg");
+  // background-size: cover;
+  background-color: $thm-pri-color-light;
   background-attachment: fixed;
   padding: 100px 0;
   position: relative;
   margin-top: 130px;
+  color: $thm-pri-color;
 
   .form-bg {
-    background-color: #ffffff05;
-    box-shadow: 0 0 16px rgb(255 255 255 / 25%);
-  }
+    // background-color: #ffffff05;
+    // box-shadow: 0 0 16px rgb(255 255 255 / 25%);
+    border-radius: 0;
 
-  p {
-    color: $white;
+    p {
+      color: $thm-pri-color;
+    }
   }
 
   option {
