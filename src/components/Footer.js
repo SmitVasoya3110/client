@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-6 col-md-6 col-lg-4">
+            <div className="col-6 col-md-6 col-lg-4 f-menu">
               <ul className="footer-links">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/web-development">Web Development</Link></li>

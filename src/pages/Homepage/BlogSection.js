@@ -38,7 +38,7 @@ const BlogSection = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-              <h6 className="small-heading">Our Blog</h6>
+              <h6 className="small-heading center">Our Blog</h6>
               <h1 className="big-heading">
                 Reads Our Latest
                 <br />

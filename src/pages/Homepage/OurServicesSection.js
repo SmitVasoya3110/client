@@ -59,7 +59,7 @@ export default function OurServicesSection() {
   };
 
   return (
-    <div>
+
       <section className="ourservices-section mb-5" id="our-services">
         <div className="container-fluid">
           <div className="container">
@@ -116,6 +116,6 @@ export default function OurServicesSection() {
           </div>
         </div>
       </section>
-    </div>
+    
   );
 }

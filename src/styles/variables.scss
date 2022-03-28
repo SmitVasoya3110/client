@@ -56,7 +56,9 @@ $white: #ffffff;
 $black: #000000;
 
 $big-heading-font: 60px;
-
+.center {
+  display: block !important;
+}
 .d-custom-none {
   display: none;
 }
@@ -73,10 +75,10 @@ body {
   color: $thm-pri-color;
   border-radius: 4px;
   background-color: $thm-pri-color-light;
-  padding: 4px 8px;
   display: inline-block;
+  padding: 4px 8px;
   margin: 0 auto 10px;
-  //   font-size: 55px;
+  text-align: center;
   font-size: 32px;
   font-weight: bold;
   font-family: Mulish;
@@ -91,8 +93,8 @@ p {
 }
 
 .big-heading {
-  font-size: $big-heading-font;
   font-family: Poppins;
+  text-align: center;
 }
 
 .header-section {
@@ -236,7 +238,7 @@ p {
   }
 
   .big-heading {
-    font-size: 40px;
+    font-size: 22px;
   }
 
   .MuiTabs-flexContainer {
@@ -270,7 +272,7 @@ p {
     margin: 10px;
   }
 
-  .ourservices-section .MuiButtonBase-root, 
+  .ourservices-section .MuiButtonBase-root,
   .tech-section .MuiButtonBase-root {
     margin: 0 2px;
     padding: 4px;

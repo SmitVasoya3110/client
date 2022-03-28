@@ -24,7 +24,7 @@ const Home = () => {
     });
   });
   return (
-    <div>
+    <div className="main">
       <HeaderSection />
       {/* <WhyLikeUsSection />
       <AboutUsSection /> */}
