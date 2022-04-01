@@ -104,12 +104,9 @@ p {
   position: relative;
 
   .heading-container {
-    padding: 250px 0 170px;
+    padding: 150px 0 170px;
     position: relative;
 
-    h1 {
-      font-size: 80px;
-    }
   }
 }
 
@@ -217,13 +214,17 @@ p {
       width: 90% !important;
     }
 
-    .col-12 {
-      padding: 30px 0 30px 22px !important;
-    }
   }
 }
 
 @media screen and (min-width: 0) and (max-width: 768px) {
+  .team-memb-img {
+    width: 80%;
+    margin: auto;
+}
+.row.c-form {
+  flex-direction: column-reverse;
+}
   .pure-modal-backdrop .pure-modal {
     .panel-body {
       padding: unset;

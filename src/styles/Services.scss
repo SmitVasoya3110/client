@@ -114,7 +114,9 @@
     }
   }
 
-  .serbanner {
-    display: none;
+}
+@media screen and (max-width:768px) {
+  .cf-section{
+    padding: 1px 0 !important;
   }
 }
