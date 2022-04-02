@@ -8,7 +8,7 @@ const HeaderSection = ({ title }) => {
           <div className="row">
             <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12">
               <div className="heading-container">
-                <h1 className="big-heading gradient-head">{title}</h1>
+                <h1 className="gradient-head s-title">{title}</h1>
                 <h2><em>We provide quality services for your business needs.</em></h2>
                 <p>
                   We have an excellent and capable development team that

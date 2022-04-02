@@ -27,7 +27,7 @@ const ServiceHeader = ({ heading, headerContent, img, bgImg }) => {
 
       <div className="container-fuild">
         <div className="container">
-          <div className="row">
+          <div className="row service-row">
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <h1 className="gradient-head">{heading}</h1>
               <p>{headerContent}</p>

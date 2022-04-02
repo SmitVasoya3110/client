@@ -207,21 +207,21 @@ padding: 20px 0px;
 .ourprojects-section {
   .owl-nav {
     button {
-      box-shadow: 0px 16px 30px 0px #7fffd460;
-      border: 2px solid #7fffd4 !important;
+    //  box-shadow: 0px 16px 30px 0px #1d6272;
+      border: 2px solid #1d6272 !important;
     }
-    button:hover {
-      border: 2px solid $thm-pri-color-light !important;
-    }
+    // button:hover {
+    //   border: 2px solid $thm-pri-color-light !important;
+    // }
     .owl-next {
       position: absolute;
       top: 40%;
-      right: -7%;
+      right: -4%;
     }
     .owl-prev {
       position: absolute;
       top: 40%;
-      left: -7%;
+      left: -4%;
     }
   }
 }
@@ -366,7 +366,7 @@ padding: 20px 0px;
 
 .owl-carousel .owl-nav button:hover {
   background-color: $thm-pri-color !important;
-  box-shadow: 0px 16px 30px 0px #1d627260;
+ // box-shadow: 0px 16px 30px 0px #1d627260;
 }
 
 .owl-carousel .owl-nav button:hover > span {
@@ -414,24 +414,24 @@ padding: 20px 0px;
       }
     }
     .owl-stage-outer {
-      margin: 0 50px;
+      margin: 0 5px;
     }
 
     .owl-carousel .owl-nav button {
       border: 2px solid $thm-pri-color !important;
     }
 
-    .owl-carousel .owl-nav button.owl-prev {
-      position: absolute;
-      left: -75%;
-      bottom: 25%;
-    }
+    // .owl-carousel .owl-nav button.owl-prev {
+    //   position: absolute;
+    //   left: -75%;
+    //   bottom: 25%;
+    // }
 
-    .owl-carousel .owl-nav button.owl-next {
-      position: absolute;
-      left: -65%;
-      bottom: 25%;
-    }
+    // .owl-carousel .owl-nav button.owl-next {
+    //   position: absolute;
+    //   left: -65%;
+    //   bottom: 25%;
+    // }
   }
 }
 

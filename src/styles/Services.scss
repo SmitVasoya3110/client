@@ -3,7 +3,10 @@
 .serbanner {
   width: 100%;
 }
-
+.s-title{
+  font-size: 45px;
+  text-align: center;
+}
 .ourservices-section {
   .sc-container {
     display: flex;
@@ -113,6 +116,10 @@
       flex-wrap: wrap;
     }
   }
+.service-row{
+  flex-direction: column-reverse;
+}
+
 
 }
 @media screen and (max-width:768px) {

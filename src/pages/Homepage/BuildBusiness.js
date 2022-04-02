@@ -36,7 +36,7 @@ const BuildBusiness = () => {
             </h6>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 d-flex justify-content-center align-items-center">
-            <button className="btn-white-border" onClick={() => setModal(true)}>
+            <button className="btn-pri btn-white-border" onClick={() => setModal(true)}>
               Contact Us <BsChevronDoubleRight />
             </button>
           </div>
