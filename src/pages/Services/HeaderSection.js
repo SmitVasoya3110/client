@@ -2,13 +2,13 @@ import servicebanner from "../../Images/SERVICES.png"
 
 const HeaderSection = ({ title }) => {
   return (
-    <section className="header-section mb-5">
+    <section className="service-header">
       <div className="container-fluid">
         <div className="container">
-          <div className="row">
+          <div className="row service-row">
             <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12">
               <div className="heading-container">
-                <h1 className="gradient-head s-title">{title}</h1>
+                <h1 className="gradient-head">{title}</h1>
                 <h2><em>We provide quality services for your business needs.</em></h2>
                 <p>
                   We have an excellent and capable development team that
@@ -19,7 +19,7 @@ const HeaderSection = ({ title }) => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 col-12 d-flex justify-content-center align-items-center">
+            <div className="col-lg-6 col-md-12 col-12 d-flex justify-content-center align-items-center">
               <img src={servicebanner} className="serbanner" alt="service-bannner" />
             </div>
           </div>

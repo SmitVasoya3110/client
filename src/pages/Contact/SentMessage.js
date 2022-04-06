@@ -9,7 +9,7 @@ const SentMessage = () => {
             <div className="col-lg-12 col-md-12 col-12 p-5 text-center my-5">
               <h1 className="big-heading text-success"><BsCheckCircleFill /></h1>  
               <h1>
-                Your Message has successfully sent. We'll get back you shortly!
+              Your message has been successfully sent. We’ll get back to you shortly!
               </h1>
             </div>
           </div>

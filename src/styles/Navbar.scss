@@ -295,27 +295,24 @@ li.nav-item {
       display: block;
     }
 
-    .mb-menu {
-      background-image: url("../Images/menu.png");
-      width: 24px;
-      height: 24px;
-      background-size: contain;
-      background-repeat: no-repeat;
-      outline: none;
-      border: none;
-      background-color: transparent;
-      margin: 30px -12px;
-      z-index: 10;
-      position: absolute;
-      top: 5%;
-      right: 5%;
-      transition: 0.4s;
-      border-radius: unset;
+    // .mb-menu {
+    //   background-image: url("../Images/menu.png");
+    //   width: 24px;
+    //   height: 24px;
+    //   background-size: contain;
+    //   background-repeat: no-repeat;
+    //   outline: none;
+    //   border: none;
+    //   background-color: transparent;
+    //   margin: 30px -12px;
+    //   z-index: 10;
+    //   transition: 0.4s;
+    //   border-radius: unset;
 
-      &.mopen {
-        background-image: url("../Images/closealt.png");
-      }
-    }
+    //   &.mopen {
+    //     background-image: url("../Images/closealt.png");
+    //   }
+    // }
 
     .navbar-nav {
       width: 350px !important;

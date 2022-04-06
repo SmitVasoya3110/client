@@ -61,7 +61,7 @@ export default function OurServicesSection() {
   return (
 
       <section className="ourservices-section mb-5" id="our-services">
-        <div className="container-fluid">
+      
           <div className="container">
             <div className="row">
               <div className="col-12 text-center mb-4">
@@ -113,7 +113,7 @@ export default function OurServicesSection() {
                 </SwipeableViews>
               </div>
             </div>
-          </div>
+       
         </div>
       </section>
     

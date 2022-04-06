@@ -5,7 +5,7 @@ export const serviceDetailsData = [
     bgImg: "assets/Images/web-development-background.png",
     heading: "Web Development",
     headerContent:
-      "In the world of the internet, a website is the first step in interacting with clients. Web design is important in web development since it creates the first impression, which is crucial for the company. Digisurf offers the most dependable web development services in the United States, as well as a creative design team that creates eye-catching websites. As a successful web development company, we have a skilled team of web developers who work hard on the latest technology to provide exceptional website development services. For e-commerce and corporations, they can create high-performing static websites, user-friendly dynamic websites, single-page websites, and feature-rich multi-page websites.",
+      "In the world of the internet, a website is the first step in interacting with clients. Web design is important in web development since it creates the first impression, which is crucial for the company. Digisurf offers the most dependable web development services in Australia, as well as a creative design team that creates eye-catching websites. As a successful web development company, we have a skilled team of web developers who work hard on the latest technology to provide exceptional website development services. For e-commerce and corporations, they can create high-performing static websites, user-friendly dynamic websites, single-page websites, and feature-rich multi-page websites.",
     img: "assets/Images/WEB-DEVPT-SERVICE.png",
     whyus: [
       "Responsive Web Development",
