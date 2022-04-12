@@ -2,6 +2,7 @@ import footerimg from "../Images/FOOTER.png";
 import logodark from "../Images/LOGO2.jpg";
 import { Link } from "react-router-dom";
 import "../styles/Footer.scss";
+
 import {
   FaFacebookF,
   FaTwitter,
@@ -9,6 +10,8 @@ import {
   FaBehance,
 } from "react-icons/fa";
 import { BsTelephone, BsFillPinMapFill } from "react-icons/bs";
+import { icons } from "react-icons";
+import SocialFollow from "../socialfollow";
 
 const Footer = () => {
   return (
@@ -69,6 +72,9 @@ const Footer = () => {
             </div>
             <hr />
             <div className="row">
+            <SocialFollow/>
+            </div>
+            <div className="row">
               <div className="col-12">
                 Copy@2022 <Link to="/" className="fcp-brand">DigiSurf</Link>. All Right
                 Reserved.
@@ -77,6 +83,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      
     </footer>
   );
 };

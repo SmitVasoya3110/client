@@ -16,6 +16,7 @@ import Contact from "./pages/Contact/Contact";
 import ServiceDetails from "./pages/Services/ServiceDetailsPage/ServiceDetails";
 import BlogsList from "./pages/Blogs/BlogsList";
 import My404Component from "./components/My404Component";
+import './accordian.css';
 
 function App() {
 
@@ -78,7 +79,6 @@ function App() {
     </div>
   );
 }
-
 export default App;
 
 

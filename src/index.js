@@ -4,6 +4,27 @@ import "./styles/index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import TagManager from 'react-gtm-module';
+import { appBarClasses } from "@mui/material";
+
+
+const tagManagerArgs = {
+  gtmId: 'GTM-KCTM6QV'
+}
+
+/* const cors = require('cors');
+App.use(cors()); 
+ */
+TagManager.initialize(tagManagerArgs)
+
+
+/* dsfsdfsdf */
+
+
+/* jhfkshfsdkfhdskjfh */
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>

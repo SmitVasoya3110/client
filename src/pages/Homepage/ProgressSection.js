@@ -6,7 +6,7 @@ import { Line } from "rc-progress";
 const ProgressSection = () => {
   return (
     <section className="skills-section mb-5">
-      <img src={progressblobbg} alt="blogimg" className="s-img" />
+      <img src={progressblobbg} alt="blog image" className="s-img" />
       <div className="container-fluid">
         <div className="container">
           <div className="row">
