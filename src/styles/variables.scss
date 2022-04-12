@@ -56,7 +56,9 @@ $white: #ffffff;
 $black: #000000;
 
 $big-heading-font: 60px;
-
+.center {
+  display: block !important;
+}
 .d-custom-none {
   display: none;
 }
@@ -73,10 +75,10 @@ body {
   color: $thm-pri-color;
   border-radius: 4px;
   background-color: $thm-pri-color-light;
-  padding: 4px 8px;
   display: inline-block;
+  padding: 4px 8px;
   margin: 0 auto 10px;
-  //   font-size: 55px;
+  text-align: center;
   font-size: 32px;
   font-weight: bold;
   font-family: Mulish;
@@ -89,10 +91,12 @@ p {
   font-weight: 400;
   font-size: 17px;
 }
-
+.loader_img{
+  width: 100%;
+}
 .big-heading {
-  font-size: $big-heading-font;
   font-family: Poppins;
+  text-align: center;
 }
 
 .header-section {
@@ -102,12 +106,8 @@ p {
   position: relative;
 
   .heading-container {
-    padding: 250px 0 170px;
+    padding: 150px 0 170px;
     position: relative;
-
-    h1 {
-      font-size: 80px;
-    }
   }
 }
 
@@ -182,7 +182,7 @@ p {
 @media screen and (min-width: 1025px) and (max-width: 1920px) {
   .pure-modal-backdrop .pure-modal {
     .close {
-      right: 10%;
+      right: 12%;
     }
   }
 }
@@ -202,8 +202,8 @@ p {
     width: 100%;
 
     .close {
-      right: 7%;
-      top: 7%;
+      right: 10%;
+      top: 8%;
     }
   }
 
@@ -214,14 +214,38 @@ p {
     form {
       width: 90% !important;
     }
-
-    .col-12 {
-      padding: 30px 0 30px 22px !important;
-    }
+  }
+  .small-heading{
+    width: 100%;
+    text-align: center;
   }
 }
 
 @media screen and (min-width: 0) and (max-width: 768px) {
+  .pure-modal-backdrop .pure-modal .close {
+    //right: 10%;
+    top: 5%;
+}
+  .team-memb-img {
+    width: 80%;
+    margin: auto;
+  }
+  p.memb-post {
+    font-size: 14px;
+  }
+  .service-header {
+    padding: 120px 0 15px 0;
+  }
+  .owl-carousel .owl-nav button {
+    width: 45px;
+    height: 45px;
+  }
+  .owl-carousel .owl-nav button span {
+    font-size: 20px;
+  }
+  .row.c-form {
+    flex-direction: column-reverse;
+  }
   .pure-modal-backdrop .pure-modal {
     .panel-body {
       padding: unset;
@@ -236,7 +260,7 @@ p {
   }
 
   .big-heading {
-    font-size: 40px;
+    font-size: 22px;
   }
 
   .MuiTabs-flexContainer {
@@ -263,6 +287,7 @@ p {
       padding: 140px 0 100px;
     }
   }
+  
 }
 
 @media screen and (min-width: 787px) and (max-width: 991px) {
@@ -270,9 +295,14 @@ p {
     margin: 10px;
   }
 
-  .ourservices-section .MuiButtonBase-root, 
+  .ourservices-section .MuiButtonBase-root,
   .tech-section .MuiButtonBase-root {
     margin: 0 2px;
     padding: 4px;
   }
+
+}
+
+@media only screen and (min-width:769px) and (max-width:991px)and (orientation:portrait){
+  
 }

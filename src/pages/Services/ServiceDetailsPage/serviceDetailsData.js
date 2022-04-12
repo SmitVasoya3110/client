@@ -3,9 +3,9 @@ export const serviceDetailsData = [
     id: "sd1",
     slug: "web-development",
     bgImg: "assets/Images/web-development-background.png",
-    heading: "Web Development",
+    heading: "Web Development Service in Sydney",
     headerContent:
-      "In the world of the internet, a website is the first step in interacting with clients. Web design is important in web development since it creates the first impression, which is crucial for the company. Digisurf offers the most dependable web development services in the United States, as well as a creative design team that creates eye-catching websites. As a successful web development company, we have a skilled team of web developers who work hard on the latest technology to provide exceptional website development services. For e-commerce and corporations, they can create high-performing static websites, user-friendly dynamic websites, single-page websites, and feature-rich multi-page websites.",
+      "In the world of the internet, a website is the first step in interacting with clients. Web design is important in web development since it creates the first impression, which is crucial for the company. Digisurf offers the most dependable web development services in Australia, as well as a creative design team that creates eye-catching websites. As a successful web development company, we have a skilled team of web developers who work hard on the latest technology to provide exceptional website development services. For e-commerce and corporations, they can create high-performing static websites, user-friendly dynamic websites, single-page websites, and feature-rich multi-page websites.",
     img: "assets/Images/WEB-DEVPT-SERVICE.png",
     whyus: [
       "Responsive Web Development",
@@ -34,7 +34,7 @@ export const serviceDetailsData = [
     id: "sd2",
     slug: "erp-development",
     bgImg: "assets/Images/crms-backgroumd.png",
-    heading: "ERP/CRM Development",
+    heading: "ERP/CRM Development in Sydney",
     headerContent:
       "At Digisurf, we provide cutting-edge Content Management System (CMS) services and solutions to businesses all over the world to help them serve and sell their message to the right people. Our content, knowledge, and document management systems are simple to use and update, allowing you to easily add or alter your website. We are your CMS partner of choice for everything from a simple website to enterprise-level custom or WordPress design and development. To create the ideal ERP solution, we adapt off-the-shelf ERP solutions by automating procedures, connecting data, altering solutions, creating modules, and more.",
     img: "assets/Images/ERP-SYSTEM.png",
@@ -72,7 +72,7 @@ export const serviceDetailsData = [
     id: "sd3",
     slug: "graphic-designing",
     bgImg: "assets/Images/web-development-background.png",
-    heading: "Graphic Designing",
+    heading: "Graphic Designing in Sydney",
     headerContent:
       "Graphics are a powerful tool for communicating a business message to your target audience. The logo, banner, poster, and UI/UX design that are required to establish a brand image while intensifying its recognition are included in the Graphic Design service. Graphics that are both innovative and appealing can surely engage viewers. Our highly skilled designers take the time to get to know you and your business goals in order to create designs that work well with your business items and concepts. As a graphic design firm, we use modern techniques and technologies to create appealing images. We provide you with the most outstanding graphics paired with innovation and originality by completely understanding your company's marketing requirements and goals.",
     img: "assets/Images/GRAPHIC-DESIGN-SERVICE.png",
@@ -103,7 +103,7 @@ export const serviceDetailsData = [
     id: "sd4",
     slug: "digital-marketing",
     bgImg: "assets/Images/web-development-background.png",
-    heading: "Digital Marketing",
+    heading: "Digital Marketing in Sydney",
     headerContent:
       "Apart from marketing, digital marketing encompasses a variety of web-related activities, all of which must be carried out with a focus on end-users in order to be successful. At Digisurf, we provide end-to-end marketing solutions for a wide range of businesses. All facets of IT and digital marketing for businesses are covered by our services, helping you to build a strong brand. SEO, SEM, PPC, SMO, content marketing, and social media networking are all part of a good digital marketing strategy. Each member of our digital marketing team has a wealth of knowledge and experience in their respective marketing sectors.",
     img: "assets/Images/DIGITAL-MARKETING-SERVICE.png",
@@ -136,7 +136,7 @@ export const serviceDetailsData = [
     id: "sd5",
     slug: "devops",
     bgImg: "assets/Images/web-development-background.png",
-    heading: "DevOps",
+    heading: "Best DevOps",
     headerContent:
       "As an established DevOps services provider, Digisurf will keep your business, development, and operations teams on the same page regarding the best method to enhance corporate apps, increase IT security, and maximize infrastructure resources. Our DevOps services are designed to give you complete control over the software development and delivery process, as well as automate key workflow steps. As a result, the DevOps team will guarantee that each software build is subjected to code review and automated testing before being uploaded to the cloud and deployed to production",
     img: "assets/Images/DEVOPS-SERVICE.png",
@@ -173,7 +173,7 @@ export const serviceDetailsData = [
     id: "sd6",
     slug: "mobile-app-development",
     bgImg: "assets/Images/web-development-background.png",
-    heading: "Mobile App Development",
+    heading: "Mobile App Development in Sydney",
     headerContent:
       "It is undeniable that the demand for mobile apps has increased across the board. To deal with this, we became your design and development accelerator for luminous mobile applications. Our team of mobile app developers is innovative and knowledgeable to meet your demands as well as your business requirements. Our mobile app developers can design highly customized mobile applications for both consumers and businesses thanks to their superior tools and skills. Our previous work and experience demonstrate our commitment to mobile app development.",
     img: "assets/Images/MOBILE-APP-DEVELOPMENT-SERVICE.png",

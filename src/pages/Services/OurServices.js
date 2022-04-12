@@ -7,8 +7,7 @@ import { SiAdobeillustrator, SiAzuredevops } from "react-icons/si";
 const OurServices = () => {
   return (
     <section className="ourservices-section mb-5">
-      <div className="container-fluid">
-        <div className="container">
+      <div className="container-xxl">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
               <h1 className="big-heading">Services DigiSurf Offers</h1>
@@ -20,7 +19,7 @@ const OurServices = () => {
           </div>
 
           <div className="row">
-            <div className="col-lg-12 col-mg-12 col-sm-12 col-xs-12 sc-container">
+            <div className="sc-container">
               <ServicesCard
                 icon={<GrReactjs className="sc-icon" />}
                 title="Web Developement"
@@ -39,12 +38,7 @@ const OurServices = () => {
                 description="Our team of mobile app developers is innovative and knowledgeable to meet your demands as well as your business requirements."
                 link="/mobile-app-development"
               />
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-lg-12 col-mg-12 col-sm-12 col-xs-12 sc-container">
-              <ServicesCard
+                <ServicesCard
                 icon={<SiAzuredevops className="sc-icon" />}
                 title="DevOps"
                 description="Digisurf will keep your business, development, and operations teams on the same page regarding the best method to enhance corporate apps, increase IT security."
@@ -62,9 +56,10 @@ const OurServices = () => {
                 description="We, at Digisurf, deliver end-to-end marketing solutions for all types of businesses. All services including SEO, SEM, PPC, SMO, content marketing, and social media."
                 link="/digital-marketing"
               />
-            </div>
+              </div>
+        
           </div>
-        </div>
+       
       </div>
     </section>
   );

@@ -27,15 +27,15 @@ const ServiceHeader = ({ heading, headerContent, img, bgImg }) => {
 
       <div className="container-fuild">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div className="row service-row">
+            <div className="col-lg-6 col-md-12 col-sm-12">
               <h1 className="gradient-head">{heading}</h1>
               <p>{headerContent}</p>
               <button className="btn-pri mb-3" onClick={() => setModal(true)}>
                 Request a Call Back
               </button>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div className="col-lg-6 col-md-12 col-sm-12">
               <img className="sbimg" src={img} alt="serviceBannerImage" />
             </div>
           </div>

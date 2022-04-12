@@ -7,10 +7,10 @@ import { Link } from "react-router-dom";
 const HeaderSection = () => {
   return (
     <section className="title-header">
-      <div className="container-fluid h-100">
-        <div className="container h-100">
-          <div className="row h-100">
-            <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+      <div className="container-fluid">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 col-md-8 col-sm-8 col-xs-8">
               <div className="header-text">
                 {/* <h1 className="text-light">Integrating technology with strategies</h1> */}
                 <h1 className="text-uppercase gradient-head">
@@ -33,7 +33,7 @@ const HeaderSection = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 position-relative">
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 position-relative">
               <img
                 src={headerimg}
                 alt="header-img"

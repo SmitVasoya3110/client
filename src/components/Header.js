@@ -1,6 +1,7 @@
 // import logolight from "../Images/logolight.png";
 // import logolight from "../Images/transaprent-logo-1.png";
 import logolight from "../Images/LOGO2.jpg";
+import logolights from "../Images/LOGO.png";
 import { Link } from "react-router-dom";
 import "../styles/Button.scss";
 import "../styles/Navbar.scss";
@@ -40,7 +41,7 @@ const Header = ({ sticky }) => {
       <nav className="navbar navbar-expand-lg">
         <Link to="/">
           <img
-            src={logolight}
+            src={logolights}
             alt="logo"
             className="logoimg ms-lg-5"
             width="200"

@@ -17,7 +17,7 @@ const AboutUsSection = () => {
               />
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-              <h6 className="small-heading">About Us</h6>
+              <h6 className="small-heading center">About Us</h6>
               <h1 className="big-heading mb-4">
                 We Are Specialized In Business Solution
               </h1>

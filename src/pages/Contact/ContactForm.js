@@ -67,8 +67,8 @@ const ContactForm = ({ setMsg }) => {
       <div className="container">
       {loading ? <MailLoader /> : 
         <div className="form-bg">
-          <div className="row">
-            <div className="col-lg-4 col-md-6 col-12 p-5">
+          <div className="row c-form">
+            <div className="col-lg-4 col-md-6 col-12 ps-4">
               <h1>Get in Touch</h1>
               <p className="text-light">We love to hear from you. Our team is always here to chat.</p>
               <div className="d-flex mb-5">
@@ -87,7 +87,7 @@ const ContactForm = ({ setMsg }) => {
                   <h6 className="mb-0">Bondi Beach, Sydney</h6>
                 </div>
               </div>
-              <div className="d-flex mb-5">
+              <div className="d-flex mb-3">
                 <FaPhoneAlt className="me-3 h3" />
                 <div>
                   <h4>Phone</h4>

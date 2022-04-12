@@ -6,7 +6,7 @@ const ServicesCard = ({ icon, title, description, link }) => {
   return (
     <Tilt
       perspective={1000}
-      className="service-card text-center parallax-effect"
+      className="col-md-6 service-card text-center parallax-effect"
     >
       {icon}
       <h4>{title}</h4>
